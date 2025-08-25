@@ -44,9 +44,11 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
+        "image": "shopify://shop_images/DSC_0202.jpg",
+        "image_2": "shopify://shop_images/427986274_2331298790412439_5989250605797814761_n.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
+        "image_behavior": "zoom-in",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
