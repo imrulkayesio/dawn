@@ -19,20 +19,13 @@
             "heading_size": "h0"
           }
         },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
+        "buttons_chk7RM": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_label_1": "Button label",
+            "button_link_1": "shopify://products/the-3p-fulfilled-snowboard",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -40,8 +33,7 @@
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "buttons_chk7RM"
       ],
       "settings": {
         "image": "shopify://shop_images/DSC_0202.jpg",
@@ -58,36 +50,6 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "image_banner_4KitRD": {
       "type": "image-banner",
       "blocks": {
@@ -95,7 +57,7 @@
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
@@ -253,7 +215,6 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "image_banner_4KitRD",
     "featured_collection",
     "collage",
